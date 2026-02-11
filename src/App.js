@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import UserList from './components/UserList';
 import './App.css';
+import ProductPrice from './components/ProductPrice';
+import PhotoGalery from './components/PhotoGalery';
+import ManagerZadan from './components/ManagerZadan';
+import PostSearch from './components/PostSearch';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <UserList/> */}
+      {/* <ProductPrice/> */}
+      {/* <PhotoGalery></PhotoGalery> */}
+      {/* <ManagerZadan></ManagerZadan> */}
+      <PostSearch/>
     </div>
   );
 }
