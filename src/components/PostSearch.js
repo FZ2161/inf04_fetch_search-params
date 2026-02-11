@@ -15,7 +15,8 @@ const PostSearch = () => {
         const value = e.target.value;
         setSearchParams(value ? { postId: value } : {});
     };
-
+ 
+    
     const fetchPostAndComments = async () => {
         try {
             const postResponse = await axios.get(`https://jsonplaceholder.typicode.com/posts/${postId}`);
